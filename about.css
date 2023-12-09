@@ -27,7 +27,7 @@ h3 {
     position: relative; /* allows the text overlay to be positioned absolutely */
 }
 
-.block-with-bg-img-3 {
+.block-with-bg-img-2 {
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/main_character.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
@@ -36,9 +36,10 @@ h3 {
     position: relative; /* allows the text overlay to be positioned absolutely */
 }
 
-.block-with-bg-img-2 {
+
+.block-with-bg-img-3 {
     display: flex;
-    background-color: rgb(231, 231, 231); /* add the linear gradient on top of the image */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/escape.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 600px; /* set the height of the block */
