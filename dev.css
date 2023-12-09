@@ -3,7 +3,7 @@
 h1 {
     font-family: 'header', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 7em;
+    font-size: 5.5em;
 }
 
 h2 {
@@ -13,34 +13,24 @@ h2 {
 }
 
 h3 {
-    font-family: 'normal', sans-serif;
+    font-family: 'header', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
 }
 
 /* Block styles */
 .block-with-bg-img-1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/logo.png'); /* add the linear gradient on top of the image */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/developers.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 600px; /* set the height of the block */
-    position: relative; /* allows the text overlay to be positioned absolutely */
-}
-
-.block-with-bg-img-3 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/fan.png'); /* add the linear gradient on top of the image */
-    background-size: cover; /* scale the image to cover the entire block */
-    background-position: center; /* center the image within the block */
-    height: 650px; /* set the height of the block */
     position: relative; /* allows the text overlay to be positioned absolutely */
 }
 
 .block-with-bg-img-2 {
-    display: flex;
     background-color: rgb(231, 231, 231); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
-    height: 600px; /* set the height of the block */
+    height: 500px; /* set the height of the block */
     position: relative; /* allows the text overlay to be positioned absolutely */
 }
 
@@ -54,15 +44,6 @@ h3 {
 }
 
 .block-with-bg-img-2 .border-bottom {
-    position: absolute;
-    bottom: 0; /* position the border at the bottom of the block */
-    left: 0; /* align the border with the left edge of the block */
-    width: 100%; /* make the border span the entire width of the block */
-    height: 20px; /* set the height of the border */
-    background-color: #000; /* set the color of the border */
-}
-
-.block-with-bg-img-3 .border-bottom {
     position: absolute;
     bottom: 0; /* position the border at the bottom of the block */
     left: 0; /* align the border with the left edge of the block */
@@ -97,6 +78,11 @@ h3 {
     margin: 0 auto;
 }
 
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+  
 /* Section styles */
 section {
     padding: 20px 0;
@@ -106,15 +92,13 @@ section {
 section p{
     color: rgb(0, 0, 0);
     font-size: 1.5em;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 section h2 {
     font-family: 'header', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 2em;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
     
 }
@@ -128,73 +112,53 @@ section li{
     background-color: #f0f0f0;
 }
 
-.cell {
-    color: whitesmoke;
-    width: 100%;
-    padding: 50px;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.cell h3{
-    font-size: 3em;
-    text-align: center;
+.gallery-item {
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
 
-.cell p{
-    font-size: 2em;
-    text-align: center;
-}
-
-/* Table styles */
-table {
-    border-collapse: collapse;
+.gallery-image {
     width: 100%;
     height: 100%;
-    top: 0;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.gallery-item:hover .gallery-image {
+    transform: scale(1.2);
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
 }
 
-td {
-    border-bottom: 1px solid black;
-    border-width: 4px;
-    padding: 0px;
-    vertical-align: top;
+.footer {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-td p{
-    font-size: 1.3em;
-    color: rgb(255, 255, 255);
-}
-
-td li{
-    font-size: 1.3em;
-    color: rgb(255, 255, 255);
-}
-
-.col-1 {
-    width: 20%;
-}
-
-.col-2 {
-    width: 60%;
-}
-
-.col-2 p{
-    margin-right: 50px;
-}
-.col-2 li{
-    margin-right: 50px;
-}
-
-.col-3 {
-    width: 20%;
-}
-
-.col-3 h3{
-    margin-left: 25px;
-}
-
-.col-3 li{
-    margin-left: 25px;
+.cell {
+    color: #f0f0f0;
+    width: 50%;
+    padding: 50px;
 }
 
 .btn {

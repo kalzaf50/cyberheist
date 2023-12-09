@@ -19,7 +19,7 @@ h3 {
 
 /* Block styles */
 .block-with-bg-img-1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/muzium.jpg'); /* add the linear gradient on top of the image */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/escape.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 600px; /* set the height of the block */
@@ -39,7 +39,7 @@ h3 {
     bottom: 0; /* position the border at the bottom of the block */
     left: 0; /* align the border with the left edge of the block */
     width: 100%; /* make the border span the entire width of the block */
-    height: 20px; /* set the height of the border */
+    height: 5px; /* set the height of the border */
     background-color: #000; /* set the color of the border */
 }
 
@@ -48,7 +48,7 @@ h3 {
     bottom: 0; /* position the border at the bottom of the block */
     left: 0; /* align the border with the left edge of the block */
     width: 100%; /* make the border span the entire width of the block */
-    height: 20px; /* set the height of the border */
+    height: 5px; /* set the height of the border */
     background-color: #000; /* set the color of the border */
 }
 

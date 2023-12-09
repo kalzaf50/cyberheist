@@ -34,6 +34,25 @@ h3 {
     position: relative; /* allows the text overlay to be positioned absolutely */
 }
 
+.block-with-bg-img-1 .border-bottom {
+    position: absolute;
+    bottom: 0; /* position the border at the bottom of the block */
+    left: 0; /* align the border with the left edge of the block */
+    width: 100%; /* make the border span the entire width of the block */
+    height: 5px; /* set the height of the border */
+    background-color: #000; /* set the color of the border */
+}
+
+.block-with-bg-img-2 .border-bottom {
+    position: absolute;
+    bottom: 0; /* position the border at the bottom of the block */
+    left: 0; /* align the border with the left edge of the block */
+    width: 100%; /* make the border span the entire width of the block */
+    height: 5px; /* set the height of the border */
+    background-color: #000; /* set the color of the border */
+}
+
+
 .text-overlay {
     position: absolute; /* position the overlay on top of the background image */
     top: 50%; /* center the overlay vertically */
