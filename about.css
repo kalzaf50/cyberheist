@@ -20,7 +20,7 @@ h3 {
 
 /* Block styles */
 .block-with-bg-img-1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/character.png'); /* add the linear gradient on top of the image */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/overview.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 600px; /* set the height of the block */
@@ -28,7 +28,8 @@ h3 {
 }
 
 .block-with-bg-img-3 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/fan.png'); /* add the linear gradient on top of the image */
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/main_character.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 650px; /* set the height of the block */
@@ -80,6 +81,21 @@ h3 {
     text-shadow: 2px 10px 5px #333;
     text-align: center; /* center the text within the overlay */
     padding: 20px;
+}
+
+.text-overlay-1 {
+    position: absolute; /* position the overlay on top of the background image */
+    top: 25%; /* center the overlay vertically */
+    left: 50%; /* center the overlay horizontally */
+    transform: translate(-50%, -50%); /* move the overlay up and left by 50% to center it */
+    color: #fff; /* text color */
+    text-align: center; /* center the text within the overlay */
+    padding: 20px;
+}
+
+.text-overlay-1 p{
+    color: #fff; /* text color */
+    margin-left: 270px;
 }
 
 .cta-btn {

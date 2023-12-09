@@ -20,7 +20,7 @@ h3 {
 
 /* Block styles */
 .block-with-bg-img-1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/character.png'); /* add the linear gradient on top of the image */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('image/logo.png'); /* add the linear gradient on top of the image */
     background-size: cover; /* scale the image to cover the entire block */
     background-position: center; /* center the image within the block */
     height: 600px; /* set the height of the block */
