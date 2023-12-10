@@ -31,6 +31,23 @@ header {
     z-index: 1; /* ensures the header stays on top of other elements */
 }
 
+.nav-button {
+    background-color: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(14, 74, 146);
+    cursor: pointer;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -40,14 +57,15 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 60px;
+    margin-top: 10px;
+    margin-right: 50px;
     
 }
 
 nav a {
     font-family: 'header', sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     font-size: 1.5em;
 }
 
@@ -68,10 +86,6 @@ nav a {
     padding: 10px 0; /* add padding to the sub-menu */
 }
 
-.sub-menu li:hover{
-    background-color: #ffffff;
-}
-
 .sub-menu a {
     padding: 10px; /* add padding to the sub-menu links */
     word-wrap: break-word;
@@ -81,7 +95,7 @@ nav a {
 }
 
 .sub-menu a:hover {
-    color: #000;
+    color: rgb(14, 74, 146);
 }
 
 .border-bottom {
