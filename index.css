@@ -198,9 +198,11 @@ td li{
 }
 
 .btn {
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px 20px;
     color: white;
     text-decoration: none;
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: auto;
 }
