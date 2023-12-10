@@ -9,33 +9,6 @@
 </head>
 
 <body>
-  <script>
-    document.getElementById('feedbackForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission behavior
-
-        // Get the form data
-        const formData = new FormData(this);
-
-        // Send the form data using Fetch API
-        fetch(this.action, {
-            method: this.method,
-            body: formData
-        })
-        .then(response => response.text())
-        .then(data => {
-            // Handle the response (if needed)
-            console.log(data);
-
-            // Display a thank-you message or perform other actions
-            document.getElementById('thankYouMessage').style.display = 'block';
-        })
-        .catch(error => {
-            // Handle errors
-            console.error('Error:', error);
-        });
-    });
-</script>
-
   <header>
     <div class="container">
       <h2><a href="index.html">CYBER HEIST</a></h2>
@@ -71,7 +44,6 @@
 
   <section id="about" class="block-with-bg-img-2">
     <h2 style="text-align: center;">FORM</h2>
-    <form id="feedbackForm" action="feedback.php" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
       
@@ -85,10 +57,7 @@
         <textarea id="message" name="message" rows="5" required></textarea>
       
         <input type="submit" value="Submit Feedback">
-    </form>
-
     <p style="text-align: center;">Thank you for your feedback!</p>
-    
     <div class="border-bottom"></div>
 </section>
 
