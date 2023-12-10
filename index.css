@@ -197,7 +197,7 @@ td li{
     margin-left: 25px;
 }
 
-.btn {
+.btn-1 {
     border: 1px solid rgb(255, 255, 255);
     padding: 10px 20px;
     color: white;
@@ -207,6 +207,20 @@ td li{
     margin-left: auto;
 }
 
-.btn:hover {
+.btn-2 {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-1:hover {
+    border-width: 2px;
+}
+
+.btn-2:hover {
     border-width: 2px;
 }
