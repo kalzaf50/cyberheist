@@ -206,3 +206,7 @@ td li{
     margin-right: 10px;
     margin-left: auto;
 }
+
+.btn:hover {
+    border-width: 2px;
+}
