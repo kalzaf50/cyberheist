@@ -31,6 +31,11 @@ header {
     z-index: 1; /* ensures the header stays on top of other elements */
 }
 
+h2 a {
+    color: rgb(14, 74, 146); /* Set the default color */
+    text-decoration: none; /* Remove underline */
+}
+
 .nav-button {
     background-color: none;
     padding: 12px 20px;
