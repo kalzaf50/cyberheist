@@ -44,6 +44,7 @@
 
   <section id="about" class="block-with-bg-img-2">
     <h2 style="text-align: center;">FORM</h2>
+    <form action="submit-feedback.php" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
       
@@ -57,7 +58,10 @@
         <textarea id="message" name="message" rows="5" required></textarea>
       
         <input type="submit" value="Submit Feedback">
-    <p style="text-align: center;">Thank you for your feedback!</p>
+      </form>
+
+      <p style="text-align: center;">Thank you for your feedback!</p>
+    
     <div class="border-bottom"></div>
 </section>
 
