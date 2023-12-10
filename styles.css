@@ -68,10 +68,10 @@ nav li {
 }
 
 nav a {
-    font-family: 'header', sans-serif;
+    font-family: 'normal', sans-serif;
     text-decoration: none;
     color: whitesmoke;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .dropdown {

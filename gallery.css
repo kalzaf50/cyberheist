@@ -52,6 +52,10 @@ h3 {
     background-color: #000; /* set the color of the border */
 }
 
+.block-with-bg-img-2 h2{
+    font-family: 'normal', sans-serif;
+}
+
 .text-overlay {
     position: absolute; /* position the overlay on top of the background image */
     top: 50%; /* center the overlay vertically */
