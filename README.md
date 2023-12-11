@@ -18,3 +18,6 @@ Take on a thrilling mission as an undercover agent in New York City, controlled 
 | 1 | Equip/Unequip Telekinesis Gun | 
 | Right-Click Mouse (While equipping Telekinesis Gun) | Aim | 
 | Left-Click Mouse (While aiming) | Attract Object | 
+
+## CREDITS
+All credits go to the teammates for making efforts to complete this project.
