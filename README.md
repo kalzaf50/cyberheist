@@ -8,3 +8,5 @@ Our Website: https://kalzaf50.github.io/cyberheist/
 | W,A,S,D | Player's movement | 
 | E | Interact | 
 | 1 | Equip/Unequip Telekinesis Gun | 
+| Right-Click Mouse (While equipping Telekinesis Gun) | Aim | 
+| Left-Click Mouse (While aiming) | Attract Object | 
