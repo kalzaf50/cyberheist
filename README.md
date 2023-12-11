@@ -2,6 +2,7 @@
 
 Our Website: https://kalzaf50.github.io/cyberheist/
 
+## KEYBOARD CONTROLS
 | Keys | Description | 
 | ---------|----------|
 | W,A,S,D | Player's movement | 
