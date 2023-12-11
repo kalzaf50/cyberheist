@@ -2,6 +2,9 @@
 
 Our Website: https://kalzaf50.github.io/cyberheist/
 
+## ABOUT
+Take on a thrilling mission as an undercover agent in New York City, controlled by the powerful company, Passione. Your mission: a daring recapture operation. Dive into the world of espionage, and navigate the underground lair with the elusive main server. The fate of New York is in your hands—hack, infiltrate, and escape before it's too late!
+
 ## KEYBOARD CONTROLS
 | Keys | Description | 
 | ---------|----------|
