@@ -7,7 +7,8 @@ Take on a thrilling mission as an undercover agent in New York City, controlled 
 
 ## OBJECTIVE
 1. Infiltrate the underground lair.
-2. Beat the CPU
+2. Beat the CPU that's controlling the city.
+3. Escape the lair.
 
 ## KEYBOARD CONTROLS
 | Keys | Description | 
